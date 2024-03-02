@@ -9,3 +9,7 @@ body{
 .news-photo{
     width: 100%;
 }
+
+#loading-spinner{
+    display: none;
+}

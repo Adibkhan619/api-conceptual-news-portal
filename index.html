@@ -17,16 +17,23 @@ data-theme="light">
             </div>
         </nav>
     </section>
+ 
     <main>
         <div class="flex justify-center mt-5">
             <input id="search-box" class="border w-96 p-5" type="text" placeholder="search">
             <button onclick="search()" id="search-button" class="bg-slate-500 text-white p-5">Search</button>
         </div>
-        <section id="single-news" class="m-10 p-10 space-y-10 shadow-sm">
+
+        <div id="loading-spinner" class="mt-20 text-center text-xl">
+            <span class="loading loading-infinity loading-lg"></span>
+        </div>
+
+        <section id="single-news" class="m-10 p-10 space-y-10 shadow-sm ">
             
             
         </section>
     </main>
+  
     <footer></footer>
     <script src="news.js"></script>
 
